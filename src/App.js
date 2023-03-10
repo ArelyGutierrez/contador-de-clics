@@ -13,7 +13,7 @@ function App() {
   }
     
   const reiniciarContador = () => {
-    console.log('Reiniciar');
+    setNumClics( 0 );
   }
 
   return (
